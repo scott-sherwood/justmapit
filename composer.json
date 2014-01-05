@@ -1,0 +1,25 @@
+{
+    "name": "scott-sherwood/justmapit",
+    "type": "library",
+    "description": "Easy mapping framework",
+    "keywords": ["GIS","Global Information System", "Mapping"],
+    "homepage": "http://github.com/dl/justmapit",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Scott Sherwood",
+            "email": "scott@scott-sherwood.com",
+            "homepage": "http://www.justmapit.co",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "gabordemooij/redbean": "3.5.*"
+    },
+    "autoload": {
+        "psr-0" : {
+            "JustMapIt_" : ""
+        }
+    }
+}
