@@ -1,9 +1,9 @@
 <?php
 /**
- * JustMapIt Point
+ * JustMapIt Marker
  *
- * @file    JustMapit/Geometry/Point.php
- * @desc    Describes a line on the earth.
+ * @file    JustMapit/Model/Marker.php
+ * @desc    Describes a point on the earth.
  * @author  Scott Sherwood
  * @license BSD/GPLv2
  *
@@ -11,7 +11,12 @@
  * This source file is subject to the BSD/GPLv2 License that is bundled
  * with this source code in the file license.txt.
  */
-class Point{
-	
+
+namespace JustMapIt\Model;
+
+
+class Marker extends JMIRecord
+{
+   use Traits\Geocodable;
 
 }
